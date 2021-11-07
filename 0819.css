@@ -1,36 +1,15 @@
-* {
-    box-sizing: border-box;
-    border: 10px solid paleturquoise;
-    margin: 0;
-    padding: 0;
-}
+table, th, td
+  border: 1px solid #aaa
+  border-collapse: collapse
+  padding: 3px 5px
+  
+table
+  width: 95%
+  margin: 1em auto
+th
+  background: #e6f9ff
+tr:nth-child(even)
+  background: rgba(#6cffd1,.2)
+  
+@media only scree
 
-img {
-    width: 100px;
-    heightL: 100px;
-}
-
-.img-start {
-    border: 12px solid skyblue;
-}
-
-.img-start1 {
-    border: 2px solid skyblue;
-}
-
-#img-master {
-    border: 3px dashed yellow;
-}
-
-.relative {
-    margin-left: 20px;
-    background: pink;
-    width: 1000px;
-    height: 1000px;
-}
-
-.absolute {
-    background: indianred;
-    width: 100px;
-    height: 100px;
-}
